@@ -1,0 +1,22 @@
+#only nginx installation
+
+#!/bin/bash
+ sudo yum install telnet -y
+ sudo amazon-linux-extras install nginx1 -y
+ sudo systemctl start nginx
+ sudo systemctl status nginx
+
+
+#jquary template installation
+
+ #!/bin/bash
+Sudo yum update -y
+Sudo amazon-linux-extras install nginx1 -y
+Sudo systemctl start nginx
+Sudo systemctl enable nginx
+Wget url
+Uzip  “zip filename”
+Cd  “website name”
+Cp -r * /usr/share/nginx/html
+
+
